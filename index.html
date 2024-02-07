@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1bffa3735e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="app__flex">
+    <div class="container">
+      <div class="container__box">
+        <h1>Todo app</h1>
+        <form id="form" class="input__box">
+          <input
+            type="text"
+            class="input__task"
+            id="inputText"
+            placeholder="Enter Task"
+            required
+          />
+          <button type="submit" id="addBtn" class="input__btn">Add</button>
+        </form>
+      </div>
+      <ul id="task__list" class="task__list"></ul>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
